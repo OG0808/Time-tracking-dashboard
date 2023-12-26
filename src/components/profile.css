@@ -1,0 +1,144 @@
+.profile__container {
+  border-radius: 15px;
+  background: #1c204b;
+  width: 255px;
+  height: 518px;
+  flex-shrink: 0;
+}
+.profile__header {
+  width: 255px;
+  height: 354px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #5747ea;
+}
+
+.profile__image {
+  margin: 40px 68.75px 0px 20px;
+  width: 80px;
+  border: 3px solid white;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.profile__report {
+  margin: 40px 68.75px 0px 20px;
+  color: #bbc0ff;
+  font-family: Rubik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profile__name {
+  margin: 0px 68.75px 0px 20px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.profile__buttons {
+  margin: 26px 0px 0px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.profile__button {
+  color: #7078c9;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.profile__button:hover {
+  color: white;
+}
+
+.profile__button:focus {
+  color: white;
+}
+
+@media (max-width: 560px) {
+  .profile__buttons {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .profile__button{
+    width: 109px;
+    margin-top: 24px;
+  }
+  .profile__header {
+    display: flex;
+    width: 327px;
+    height: 133px;
+    flex-shrink: 0;
+
+    align-items: center;
+    gap: 20px;
+  }
+
+  .profile__header > div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile__report {
+    color: #bbc0ff;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .profile__name {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .profile__container {
+    width: 327px;
+    height: 203px;
+    flex-shrink: 0;
+  }
+  .profile__header {
+    width: 327px;
+    height: 133px;
+    flex-shrink: 0;
+  }
+
+  .profile__image {
+    margin: 0px 0px 0px 20px;
+
+    width: 80px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+}
