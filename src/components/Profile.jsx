@@ -11,7 +11,7 @@ export const Profile = ({setTimeFrame}) => {
   return (
     <div className="profile__container">
     <section className="profile__header">
-      <img className="profile__image" src="src\assets\images\image-jeremy.png" alt="" />
+      <img className="profile__image" src="/image-jeremy.png" alt="" />
       <div>
         <p className="profile__report">Report for</p>
         <h3 className="profile__name">
