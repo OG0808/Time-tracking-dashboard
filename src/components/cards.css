@@ -23,7 +23,11 @@
   flex-shrink: 0;
   border-radius: 15px;
   background: #1c204b;
+  cursor: pointer;
 }
+
+.activity__info:hover{
+  background: #33397A;}
 
 .activity__image {
   position: absolute;
